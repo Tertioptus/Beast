@@ -21,7 +21,9 @@ Otherwise, public abstract classes should request implementation of some behavio
 Much like working with an independent agent or broker, that serves as an intermediary for you and some service.
 The abstract classes can generally be created anonymously. 
 
-\section{Ironbrain: Tony Starks cheatsheets}
+Static methods inextricably bind foreign code within the behavior of an object. This is a no no.  At least place the static method, like 'new', in a secondary constructor such that it can be overloaded.
+
+\section{Advanced modality: Ironbrain: Tony Starks cheatsheets}
 
 \section{Thoroughbred deliverables}
 Never publish major releases with TODO tags in code
