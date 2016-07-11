@@ -1,0 +1,9 @@
+\begin{enumerate}
+  \item identify unique problem
+  \item extract user story
+  \item create accessible container for the singular user story
+  \item capture all messages in an activity diagram
+  \item trace sources of a complex (non-linear) messaging occurence in a sequence diagram
+  \item linearize message communications for task management reporting
+\end{enumerate}
+
