@@ -1,10 +1,12 @@
 \begin{enumerate}
-  \item identify unique problem
+  \item identify unique problem (whether intended by user or not, as to cover exceptions)
   \item extract user story
   \item create accessible container for the singular user story
   \item capture all messages in an activity diagram
   \item trace sources of a complex (non-linear) messaging occurence in a sequence diagram
-  \item linearize message communications for task management reporting
+  \item convert sequence diagram object headers into CRC cards
+  \item create Vinn-style object diagram from CRC cards
+  \item create class diagram of solutions api (only public methods exposed)
 \end{enumerate}
 
 It maybe help to use a paper "proof of concept" stack for each new solution.
